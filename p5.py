@@ -16,12 +16,15 @@ if tcode == 'A':
     for tnumber in range(1,11,1):
         print(tnumber+tnum, '=', tnum, '+', tnumber)
 elif tcode == 'S':
+    print('Subtract')
     for tnumber in range(1,11,1):
         print(tnumber-tnum, '=', tnumber, '-', tnum)
 elif tcode == 'M':
+    print('Multiply')
     for tnumber in range(1,11,1):
         print(tnumber*tnum, '=', tnumber, '*', tnum)
 elif tcode == 'D':
+    print('Divide')
     for tnumber in range(1,11,1):
         print(tnumber/tnum, '=', tnumber, '/', tnum)
 print('---done')
